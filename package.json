@@ -1,0 +1,41 @@
+{
+  "name": "react-native-stylenames",
+  "version": "1.0.0",
+  "description": "A simple javascript utility for conditionally joining react native styles together",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bebnev/react-native-stylenames.git"
+  },
+  "keywords": [
+    "react-native",
+    "stylenames",
+    "style",
+    "utility"
+  ],
+  "author": "Bebnev Anton <bambr.ab@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bebnev/react-native-stylenames/issues"
+  },
+  "homepage": "https://github.com/bebnev/react-native-stylenames#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "^22.4.3",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-react-native": "^3.0.1"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node"
+  }
+}
