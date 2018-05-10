@@ -1,5 +1,5 @@
 {
-  "name": "react-native-stylenames",
+  "name": "rn-stylenames",
   "version": "1.0.1",
   "description": "A simple javascript utility for conditionally joining react native styles together",
   "main": "index.js",
@@ -15,7 +15,8 @@
     "react-native",
     "stylenames",
     "style",
-    "utility"
+    "utility",
+    "stylesheet"
   ],
   "author": "Bebnev Anton <bambr.ab@gmail.com>",
   "license": "MIT",
