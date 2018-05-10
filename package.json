@@ -1,6 +1,6 @@
 {
   "name": "rn-stylenames",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple javascript utility for conditionally joining react native styles together",
   "main": "index.js",
   "scripts": {
