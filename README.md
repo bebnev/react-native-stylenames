@@ -7,12 +7,12 @@ Install with [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/):
 
 npm:
 ```sh
-npm install react-native-stylenames --save
+npm install rn-stylenames --save
 ```
 
 Yarn:
 ```sh
-yarn add react-native-stylenames
+yarn add rn-stylenames
 ```
 
 ## Usage
