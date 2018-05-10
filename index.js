@@ -1,9 +1,7 @@
 import { isPlainObject } from './utils';
 
 export default function stylenames(...styles) {
-  const parsedStyles = [];
-
-  styles.filter(v => !!v).forEach((styleItem) => {
+  return styles.filter(v => !!v).reduce((parsedStyles, styleItem) => {
     if (typeof styleItem === 'number') {
       parsedStyles.push(styleItem);
     } else if (Array.isArray(styleItem) && styleItem.length) {
@@ -18,8 +16,8 @@ export default function stylenames(...styles) {
         }
       });
     }
-  });
 
-  return parsedStyles;
+    return parsedStyles;
+  }, []);
 }
 
