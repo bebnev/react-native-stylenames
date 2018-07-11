@@ -1,3 +1,8 @@
+Important
+==========
+
+Works only with react-native version < 0.56
+
 Stylenames
 ===========
 
